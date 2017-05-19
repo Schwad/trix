@@ -2,19 +2,11 @@ Trix.config.blockAttributes = attributes =
   default:
     tagName: "div"
     parse: false
-  quote:
-    tagName: "blockquote"
-    nestable: true
   heading1:
     tagName: "h1"
     terminal: true
     breakOnReturn: true
     group: false
-  code:
-    tagName: "pre"
-    terminal: true
-    text:
-      plaintext: true
   bulletList:
     tagName: "ul"
     parse: false
